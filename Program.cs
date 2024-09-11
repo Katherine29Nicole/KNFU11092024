@@ -58,7 +58,7 @@ app.MapPut("/products/{id}", (int id, Product product) =>
     }
 });
 
-//Configuarar una ruta Delete para eliminar un producto por su ID
+//Configuarar una ruta Delete para eliminar un producto
 app.MapDelete("/products/{id}", (int id) =>
 {
     //Busca un producto en la lista que tenga el ID especificado
